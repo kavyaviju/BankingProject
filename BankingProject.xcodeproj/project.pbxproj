@@ -6,34 +6,8 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		18AD98F42955647D005B27BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD98F32955647D005B27BC /* AppDelegate.swift */; };
-		18AD98F62955647D005B27BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD98F52955647D005B27BC /* SceneDelegate.swift */; };
-		18AD98F82955647D005B27BC /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD98F72955647D005B27BC /* loginViewController.swift */; };
-		18AD98FD29556480005B27BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AD98FC29556480005B27BC /* Assets.xcassets */; };
-		18AD990029556480005B27BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD98FE29556480005B27BC /* LaunchScreen.storyboard */; };
-		18AD9908295566EA005B27BC /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD9907295566EA005B27BC /* loginView.swift */; };
-		18AD990B29556719005B27BC /* onboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD990A29556719005B27BC /* onboardingContainerViewController.swift */; };
-		18AD990D2955672C005B27BC /* onboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD990C2955672C005B27BC /* onboardingViewController.swift */; };
-		18AD991029556874005B27BC /* world.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18AD990F29556873005B27BC /* world.pdf */; };
-		18AD99122955687B005B27BC /* delorean.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18AD99112955687B005B27BC /* delorean.pdf */; };
-		18AD991429556882005B27BC /* thumbs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18AD991329556882005B27BC /* thumbs.pdf */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		18AD98F02955647D005B27BC /* BankingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18AD98F32955647D005B27BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18AD98F52955647D005B27BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18AD98F72955647D005B27BC /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
-		18AD98FC29556480005B27BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18AD98FF29556480005B27BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18AD990129556480005B27BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18AD9907295566EA005B27BC /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
-		18AD990A29556719005B27BC /* onboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingContainerViewController.swift; sourceTree = "<group>"; };
-		18AD990C2955672C005B27BC /* onboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingViewController.swift; sourceTree = "<group>"; };
-		18AD990F29556873005B27BC /* world.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = world.pdf; sourceTree = "<group>"; };
-		18AD99112955687B005B27BC /* delorean.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = delorean.pdf; sourceTree = "<group>"; };
-		18AD991329556882005B27BC /* thumbs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = thumbs.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +24,6 @@
 		18AD98E72955647D005B27BC = {
 			isa = PBXGroup;
 			children = (
-				18AD98F22955647D005B27BC /* BankingProject */,
 				18AD98F12955647D005B27BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,41 +34,6 @@
 				18AD98F02955647D005B27BC /* BankingProject.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		18AD98F22955647D005B27BC /* BankingProject */ = {
-			isa = PBXGroup;
-			children = (
-				18AD9909295566FA005B27BC /* login */,
-				18AD990E2955673E005B27BC /* onboarding */,
-				18AD98F32955647D005B27BC /* AppDelegate.swift */,
-				18AD98F52955647D005B27BC /* SceneDelegate.swift */,
-				18AD98FC29556480005B27BC /* Assets.xcassets */,
-				18AD98FE29556480005B27BC /* LaunchScreen.storyboard */,
-				18AD990129556480005B27BC /* Info.plist */,
-				18AD990F29556873005B27BC /* world.pdf */,
-				18AD99112955687B005B27BC /* delorean.pdf */,
-				18AD991329556882005B27BC /* thumbs.pdf */,
-			);
-			path = BankingProject;
-			sourceTree = "<group>";
-		};
-		18AD9909295566FA005B27BC /* login */ = {
-			isa = PBXGroup;
-			children = (
-				18AD9907295566EA005B27BC /* loginView.swift */,
-				18AD98F72955647D005B27BC /* loginViewController.swift */,
-			);
-			path = login;
-			sourceTree = "<group>";
-		};
-		18AD990E2955673E005B27BC /* onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				18AD990A29556719005B27BC /* onboardingContainerViewController.swift */,
-				18AD990C2955672C005B27BC /* onboardingViewController.swift */,
-			);
-			path = onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +94,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AD991029556874005B27BC /* world.pdf in Resources */,
-				18AD990029556480005B27BC /* LaunchScreen.storyboard in Resources */,
-				18AD99122955687B005B27BC /* delorean.pdf in Resources */,
-				18AD98FD29556480005B27BC /* Assets.xcassets in Resources */,
-				18AD991429556882005B27BC /* thumbs.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,27 +104,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AD98F82955647D005B27BC /* loginViewController.swift in Sources */,
-				18AD990B29556719005B27BC /* onboardingContainerViewController.swift in Sources */,
-				18AD98F42955647D005B27BC /* AppDelegate.swift in Sources */,
-				18AD990D2955672C005B27BC /* onboardingViewController.swift in Sources */,
-				18AD9908295566EA005B27BC /* loginView.swift in Sources */,
-				18AD98F62955647D005B27BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		18AD98FE29556480005B27BC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18AD98FF29556480005B27BC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18AD990229556480005B27BC /* Debug */ = {
